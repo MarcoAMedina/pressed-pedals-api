@@ -18,3 +18,5 @@ Content-Type: application/json
 }
 ###
 GET http://localhost:3000/pedals.json
+###
+GET http://localhost:3000/pedals.json
