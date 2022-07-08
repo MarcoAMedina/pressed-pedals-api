@@ -1,0 +1,2 @@
+class LoadoutPedal < ApplicationRecord
+end
