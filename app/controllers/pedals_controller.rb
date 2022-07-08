@@ -1,11 +1,11 @@
 class PedalsController < ApplicationController
   def index
-    pedals = Pedal.all
-    render json: pedals.as_json
+    @pedals = Pedal.all
+    render template: "pedals/index"
   end
 
   def show
-    pedal = Pedal.find_by(id: params[:id])
-    render json: pedal.as_json
+    @pedal = Pedal.find_by(id: params[:id])
+    render template: "pedal/show"
   end
 end

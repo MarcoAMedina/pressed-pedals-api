@@ -1,0 +1,7 @@
+{
+  id: @pedal.id,
+  category: @pedal.category,
+  name: @pedal.name,
+  created_at: @pedal.created_at,
+  updated_at: @pedal.updated_at
+}

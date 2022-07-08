@@ -1,0 +1,7 @@
+@pedals.map do |pedal|
+  {
+    id: pedal.id,
+    category: pedal.category,
+    name: pedal.name,
+  }
+end
