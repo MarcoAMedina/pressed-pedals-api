@@ -16,7 +16,11 @@ Content-Type: application/json
   "email": "test@test.com",
   "password": "password"
 }
-###
+### Pedal Index
 GET http://localhost:3000/pedals.json
-###
-GET http://localhost:3000/pedals.json
+### Pedal Show
+GET http://localhost:3000/pedal/2.json
+### Loadout Index
+GET http://localhost:3000/loadouts.json
+### Loadout Show
+GET http://localhost:3000/loadout/1.json

@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   post "/sessions" => "sessions#create"
   get "/pedals" => "pedals#index"
   get "/pedal/:id" => "pedals#show"
+  get "/loadouts" => "loadouts#index"
+  get "/loadout/:id" => "loadouts#show"
 end

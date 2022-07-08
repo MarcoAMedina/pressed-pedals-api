@@ -1,0 +1,9 @@
+{
+  id: @loadout.id,
+  size: @loadout.size,
+  name: @loadout.name,
+  user_id: @loadout.user_id,
+  pedals: @loadout.pedals,
+  created_at: @loadout.created_at,
+  updated_at: @loadout.updated_at
+}
