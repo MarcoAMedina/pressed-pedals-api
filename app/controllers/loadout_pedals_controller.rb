@@ -1,0 +1,2 @@
+class LoadoutPedalsController < ApplicationController
+end
