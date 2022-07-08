@@ -3,4 +3,5 @@ class PedalsController < ApplicationController
     pedals = Pedal.all
     render json: pedals.as_json
   end
+  def show
 end
