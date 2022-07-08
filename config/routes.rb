@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   get "/pedals" => "pedals#index"
   get "/pedal/:id" => "pedals#show"
   get "/loadouts" => "loadouts#index"
-  get "/loadout/:id" => "loadouts#show"
+  get "/loadouts/:id" => "loadouts#show"
+  post "/loadouts" => "loadouts#create"
 end
