@@ -28,10 +28,10 @@ GET http://localhost:3000/loadout/1.json
 ### Loadout Create
 POST http://localhost:3000/loadouts.json
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NTc0MDAwMzd9.CAP-jAOyS8aFVS4_QDeIDmDDT4YuZv6lYD3dv6FL1AY 
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NTc1MDY1MTJ9.gdR3x4dI9S02N5TyPSAv5Zc2EfePYNDweYWN-YrBnX0
 
 {
-  "size": 2,
+  "size": 3,
   "name": "Marcos cool loadout",
   "pedals": [
     {
