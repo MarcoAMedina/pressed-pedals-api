@@ -22,7 +22,7 @@ GET http://localhost:3000/pedals.json
 GET http://localhost:3000/pedal/2.json
 ### Loadout Index
 GET http://localhost:3000/loadouts.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NTc0MDAwMzd9.CAP-jAOyS8aFVS4_QDeIDmDDT4YuZv6lYD3dv6FL1AY 
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NTc2MzgzNTV9.T9W3v3vnzXXjVop3jo6mUF4nHhyGbxb9onR3mL2Frzg 
 ### Loadout Show
 GET http://localhost:3000/loadout/1.json
 ### Loadout Create
@@ -34,12 +34,6 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NTc1MDY1M
   "size": 3,
   "name": "Marcos cool loadout",
   "pedals": [
-    {
-      "id": 1
-    }, {
-      "id": 2
-    }, {
-      "id": 3
-    }
+   1, 2, 3
   ]
 }

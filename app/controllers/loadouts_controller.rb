@@ -14,7 +14,7 @@ class LoadoutsController < ApplicationController
     @loadout = Loadout.new(size: params[:size], name: params[:name], user_id: current_user.id)
     if @loadout.save
       params[:pedals].each do |pedal|
-        LoadoutPedal.create(loadout_id: @loadout.id, pedal_id: pedal[:id])
+        LoadoutPedal.create(loadout_id: @loadout.id, pedal_id: pedal)
       end
       render template: "loadouts/show"
     end
